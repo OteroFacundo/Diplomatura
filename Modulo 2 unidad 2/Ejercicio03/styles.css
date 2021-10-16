@@ -1,0 +1,44 @@
+.contenedor{
+    display: inline-flex;
+    
+    width: 950px;
+    height: 150px;
+align-items: center;
+flex-direction: row;
+background-color:white;
+justify-content: space-between;
+border-style: solid;
+border-color: black;
+}
+.rojo{
+background-color: red;
+height: 150px;
+font-size: 20px;
+width: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.verde{
+    background-color: green;
+    height: 150px;
+    font-size: 20px;
+    width: 150px;  
+    display: flex; 
+    justify-content: center;
+align-items: center;
+   
+}
+.azul{
+background-color: blue;
+width: 150px;
+height: 150px;
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+p{
+    color: white;
+}
