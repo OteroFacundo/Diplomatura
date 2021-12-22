@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
      <Header></Header>
-     <Nav/>
+     <Nav />
      <Routes>
      <Route path="/" exact element={ <HomePage/>}/>
      <Route path="/Novedades" exact element={ <NovedadesPage/>}/>
@@ -22,7 +22,7 @@ function App() {
      <Route path="/Nosotros" exact element={ <NosotrosPage/>}/>
      
      </Routes>
-     <Footer/>
+     <Footer />
      </Router>
   );
 }
