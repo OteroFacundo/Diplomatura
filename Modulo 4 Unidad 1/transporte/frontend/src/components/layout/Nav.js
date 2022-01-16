@@ -1,13 +1,14 @@
-import{Link} from 'react-router-dom';
+import React from 'react';
+import{NavLink} from 'react-router-dom';
 const Nav = (props)=>{
     return(
 <nav >
 <div className="holder">
             <ul>
-            <li><Link  to="/">HOME</Link></li>
-            <li><Link to="nosotros">NOSOTROS</Link></li>        
-            <li><Link to="novedades">NOVEDADES</Link></li>
-            <li><Link to="contacto">CONTACTO</Link></li>
+            <li><NavLink activeClassName="activo" exact to="/">HOME</NavLink></li>
+            <li><NavLink activeClassName="activo" exact to="nosotros">NOSOTROS</NavLink></li>        
+            <li><NavLink activeClassName="activo" exact to="novedades">NOVEDADES</NavLink></li>
+            <li><NavLink activeClassName="activo" exact to="contacto">CONTACTO</NavLink></li>
 
         </ul>
         </div>
