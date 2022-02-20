@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from 'react';
 import axios from 'axios';
 import NovedadItem from '../components/novedades/NovedadItem';
+import '../App.css';
 
 //import '../styles/components/pages/Novedades'
 const Novedades = (props) => {
