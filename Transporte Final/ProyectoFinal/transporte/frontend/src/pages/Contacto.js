@@ -73,9 +73,9 @@ if(response.data.error===false){
                 <ul>
                     <li>Telefono: 4356-5467</li>
                     <li>Email:contaxto@hotmail.com</li>
-                    <li>Facebook:</li>
-                    <li>Twiter:</li>
-                    <li>Skype:</li>
+                    <li>Facebook:Transporte X</li>
+                    <li>Twiter:@TransporteX</li>
+                    <li>Skype:Transporte X</li>
 
                 </ul>
 
